@@ -10,6 +10,9 @@ import Skills from './components/Skills';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
+import ProjectDetail from './components/ProjectDetails';
+
+import "./App.css";
 
 function App() {
 
@@ -22,18 +25,19 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      <NavBar />
-        <Switch>
-          <Route exact path="/home" component={Home} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/work" component={Work} />
-          <Route exact path="/skills" component={Skills} />
-          <Route exact path="/contact" component={Contact} />
-          <Redirect from="/" exact to ="/home" />
-          <Redirect to ="/home" />
-        </Switch>
+        <NavBar />
+          <Switch>
+            <Route exact path="/home" component={Home} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/project" component={Work} />
+            <Route exact path="/project/:id" component={ProjectDetail} />
+            <Route exact path="/skills" component={Skills} />
+            <Route exact path="/contact" component={Contact} />
+            <Redirect from="/" exact to ="/home" />
+            <Redirect to ="/home" />
+          </Switch>
+        <Footer />
       </BrowserRouter>
-      <Footer />
     </div>
   );
 }

@@ -1,0 +1,136 @@
+[
+{
+    "id": 1,
+    "title": "Vegan Lisbon",
+    "description": "Plateform to gather Vegan Community in Lisbon",
+    "context": "Wild Code School Front End Team Project",
+    "url": "",
+    "image": "",
+    "repo": "",
+    "timing": "4 weeks",
+    "year": "2020",
+    "technology": {
+        "html": true,
+        "css": true,
+        "javascript": true,
+        "react": false,
+        "nodejs": false
+    },
+    "type": {
+        "frontend": true,
+        "backend": false,
+        "fullstack": false
+    }
+},
+{
+    "id": 2,
+    "title": "Beach Obsurfer",
+    "description": "Plateform to watch Portuguese beach webcams",
+    "context": "24 hours hackaton",
+    "url": "",
+    "image": "",
+    "repo": "",
+    "timing": "",
+    "year": "2020",
+    "technology": {
+        "html": true,
+        "css": true,
+        "javascript": true,
+        "react": true,
+        "nodejs": false
+    },
+    "type": {
+        "frontend": true,
+        "backend": false,
+        "fullstack": false
+    }
+},
+{
+    "id": 3,
+    "title": "Get My Recipe",
+    "context": "Wild Code School Full Stack Team Project",
+    "url": "",
+    "image": "",
+    "repo": "",
+    "timing": "",
+    "year": "2020",
+    "technology": {
+        "html": true,
+        "css": true,
+        "javascript": true,
+        "react": true,
+        "nodejs": false
+    },
+    "type": {
+        "frontend": true,
+        "backend": false,
+        "fullstack": false
+    }
+},
+{
+    "id": 4,
+    "title": "Med O'Clock - Medication Reminder",
+    "context": "3 days Doctolib Hackathon",
+    "url": "",
+    "image": "",
+    "repo": "",
+    "timing": "",
+    "year": "2020",
+    "technology": {
+        "html": true,
+        "css": true,
+        "javascript": true,
+        "react": true,
+        "nodejs": true
+    },
+    "type": {
+        "frontend": true,
+        "backend": true,
+        "fullstack": true
+    }
+},
+{
+    "id": 5,
+    "title": "App Productized",
+    "context": "Real Client",
+    "url": "",
+    "image": "",
+    "repo": "",
+    "timing": "8 weeks",
+    "year": "2020",
+    "technology": {
+        "html": true,
+        "css": true,
+        "javascript": true,
+        "react": true,
+        "nodejs": true
+    },
+    "type": {
+        "frontend": true,
+        "backend": true,
+        "fullstack": true
+    }
+},
+{
+    "id": 6,
+    "title": "My Portfolio",
+    "context": "Freelance",
+    "url": "",
+    "image": "",
+    "repo": "",
+    "timing": "",
+    "year": "",
+    "technology": {
+        "html": true,
+        "css": true,
+        "javascript": true,
+        "react": true,
+        "nodejs": false
+    },
+    "type": {
+        "frontend": true,
+        "backend": false,
+        "fullstack": false
+    }
+}
+]

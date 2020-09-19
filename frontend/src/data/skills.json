@@ -1,0 +1,18 @@
+[
+   {
+    "technology": 
+    [ {
+        "html": "4.5/5",
+        "css": "4/5",
+        "javascript": "4/5",
+        "react":"4/5",
+        "nodejs": "3/5"
+    }],
+    "type": 
+    [{
+        "frontend": "4.5/5",
+        "backend": "3.5/5",
+        "fullstack": "4/5"
+    }]
+   }
+]
