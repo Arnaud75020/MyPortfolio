@@ -1,5 +1,5 @@
 import React from 'react';
-import Project from './Project';
+import Projects from './Projects';
 import projects from '../data/projects.json';
 
 
@@ -10,7 +10,7 @@ function Work() {
             <h1>Welcome to my Work Page</h1>
             <ul className="project-list">
                 {projects.map(project => {
-                    return <Project 
+                    return <Projects 
                     {...project}
                     key={project.id}
                     project={project}

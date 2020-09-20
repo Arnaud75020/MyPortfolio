@@ -1,0 +1,17 @@
+.home {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 35%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-60%);
+}
+
+.nav__list {
+    padding: 0px;
+}
+
+.nav__item {
+    display: inline-block;
+    padding: 0 10px;
+}

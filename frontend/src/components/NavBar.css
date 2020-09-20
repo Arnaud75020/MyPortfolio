@@ -1,3 +1,27 @@
+.navbar {
+    display: flex;
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.navbar-sub-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-logo {
+    margin: 0;
+} 
+
+.nav-list {
+    margin: 0;
+    padding: 0;
+}
+
 .nav-link {
     transition: all .5s;
     text-decoration: none;
@@ -6,4 +30,9 @@
 
 .active {
     display: none;
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 0 10px;
 }
